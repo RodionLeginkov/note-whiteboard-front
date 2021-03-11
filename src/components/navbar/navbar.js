@@ -18,7 +18,10 @@ const NavBar = () =>{
 
     <div className="nav-wrapper">
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="/" onClick={handleSignOut}>Logout</a></li>
+            <li > 
+
+            <a href="/" onClick={handleSignOut}>Logout</a>
+            </li>
         </ul>
         </div>
     </nav>
